@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <div class="container">
+                <h1 data-aos="fade-down">Selamat Datang di Website Saya</h1>
+                <p data-aos="fade-up" data-aos-delay="300">Halo! Saya [Nama Kamu], seorang [Profesi atau Hobi].</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#tentang" data-aos="fade-right" data-aos-delay="500">Tentang</a></li>
+            <li><a href="#portofolio" data-aos="fade-right" data-aos-delay="700">Portofolio</a></li>
+            <li><a href="#kontak" data-aos="fade-right" data-aos-delay="900">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section id="tentang" class="container">
+        <h2 data-aos="fade-right">Tentang Saya</h2>
+        <p data-aos="fade-up" data-aos-delay="300">Saya adalah seorang [deskripsi singkat tentang diri kamu]. Saya memiliki minat di bidang [minat kamu], dan saya senang belajar hal-hal baru.</p>
+    </section>
+
+    <section id="portofolio" class="container">
+        <h2 data-aos="fade-right">Portofolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi singkat tentang proyek 1.</p>
+            </div>
+            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="500">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi singkat tentang proyek 2.</p>
+            </div>
+            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="700">
+                <h3>Proyek 3</h3>
+                <p>Deskripsi singkat tentang proyek 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="container">
+        <h2 data-aos="fade-right">Kontak</h2>
+        <p data-aos="fade-up" data-aos-delay="300">Silakan hubungi saya melalui media sosial di bawah ini:</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" class="social-link" data-aos="fade-up" data-aos-delay="500"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-link" data-aos="fade-up" data-aos-delay="700"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="social-link" data-aos="fade-up" data-aos-delay="900"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-link" data-aos="fade-up" data-aos-delay="1100"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [Nama Kamu]. Semua hak dilindungi.</p>
+    </footer>
+
+    <!-- AOS Library for Animations -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+</html>
